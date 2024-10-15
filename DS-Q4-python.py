@@ -14,7 +14,6 @@ class Stack:
 
     def pop(self):
         if self.top_node is None:
-            print("Empty")
             return None
         popped_data = self.top_node.data
         self.top_node = self.top_node.next
@@ -22,7 +21,6 @@ class Stack:
 
     def top(self):
         if self.top_node is None:
-            print("Empty")
             return None
         return self.top_node.data
     
